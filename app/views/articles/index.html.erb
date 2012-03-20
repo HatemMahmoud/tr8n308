@@ -1,9 +1,9 @@
-<h1>Listing articles</h1>
+<h1><%=tr 'Listing articles' %></h1>
 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Body</th>
+    <th><%=tr 'Title' %></th>
+    <th><%=tr 'Body' %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -20,4 +20,4 @@
 <% end %>
 </table>
 
-<p><%= link_to 'New Article', new_article_path %></p>
+<p><%= link_to tr('New Article'), new_article_path %></p>
