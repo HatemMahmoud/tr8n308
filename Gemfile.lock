@@ -82,7 +82,6 @@ PLATFORMS
 DEPENDENCIES
   pg
   rails (= 3.0.8)
-  sqlite3
   tr8n (~> 3.0.3)
   will_filter (~> 3.0.0)
   will_paginate (~> 3.0.pre2)
