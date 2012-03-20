@@ -6,6 +6,9 @@ gem 'rails', '3.0.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'will_paginate', "~> 3.0.pre2"
+gem 'will_filter', "~> 3.0.0" 
+gem 'tr8n', "~> 3.0.3"
 
 # Use unicorn as the web server
 # gem 'unicorn'
