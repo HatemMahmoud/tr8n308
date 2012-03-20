@@ -7,14 +7,14 @@ gem 'rails', '3.0.8'
 
 gem 'will_paginate', "~> 3.0.pre2"
 gem 'will_filter', "~> 3.0.0" 
-gem 'tr8n', "~> 3.0.3"
 
-group :development, :test do
-  gem 'sqlite3'
-end
+# group :development, :test do
+  # gem 'sqlite3'
+# end
 
 group :production do
   gem 'pg'
+  gem 'tr8n', "~> 3.0.3"
 end
 
 # Use unicorn as the web server
