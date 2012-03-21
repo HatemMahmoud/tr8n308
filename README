@@ -9,3 +9,12 @@ To try it, run the following commands:
   $ rake db:migrate
   $ rake tr8n:init
   $ rails s
+
+= Resources
+
+- https://github.com/berk/tr8n
+- http://wiki.tr8n.org/slides/
+- https://github.com/berk/tr8n/tree/rails-3.0.x
+- https://github.com/berk/tr8n/tree/v3.1.8
+- https://github.com/berk/tr8n_examples
+- https://github.com/naveed-ahmad/tr8n-sample
